@@ -25,7 +25,49 @@ h1 {
     font-family: 'Cinzel';
     font-size: 30px;
 }
+p.font-42 {
+    font-size: 42px;
+    color: peru;
+    font-weight: bolder;
+}
+span.font-crazy {
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    font-size: 55px;
+    color: red;
+}
+p {
+    font-size: 3em;
+}
+.color-darkcyan {
+    color: darkcyan;
+}
+.color-avianca {
+    color: rgb(255,0,0);
+}
+.color-limegreen {
+    color: #32cd32;
+}
+.color-platzi {
+    color: rgb(18,31,61);
+}
+.color-platzi-2 {
+    color: rgb(191,11,255);
+}
+.espaciado-letras {
+    letter-spacing: 0.1em;
+}
+.espaciado-palabras {
+    word-spacing: 0.6em;
+}
+.espaciado-lineas {
+    line-height: 2em;
+}
 /* cinzel-600 - latin */
+body {
+    font-size: 1em;
+}
+
 @font-face {
     font-family: 'Cinzel';
     font-style: normal;
