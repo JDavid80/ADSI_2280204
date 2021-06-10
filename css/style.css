@@ -36,6 +36,10 @@ span.font-crazy {
     font-size: 55px;
     color: red;
 }
+span.titulo-lista {
+    font-weight: 900;
+    font-size: 1.2em;
+}
 p {
     font-size: 3em;
 }
