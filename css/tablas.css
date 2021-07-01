@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    font-size: 1.4em;
+    margin: 0 auto;
+/*     border: 1px solid rgb(45,172,227); */
+    
+}
+td {
+    background-color: rgb(150,172,227);;
+    border: 1px solid white;
+    padding: 0.8em 1.5em;
+    text-align: center;
+}
+
+td {
+    background-color: rgb(229,229,229);
+    color: rgb(96,96,96);
+}
+.borde-titulo-san-andres {
+    background-color: rgb(173,72,230);
+}
+.borde-titulo-cancun {
+    background-color: rgb(45,172,227);
+}
+.borde-titulo-barcelona {
+    background-color: rgb(136,208,70);
+}
+.borde-titulo-miami {
+    background-color: rgb(230,94,58);
+}
+.borde-titulo-barcelona, .borde-titulo-cancun, 
+.borde-titulo-miami, .borde-titulo-san-andres {
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid white;
+}
+.th-avianca {
+    Background-color: rgb(222,1,8);
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.th-latam {
+    Background-color: rgb(27,0,136);
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
