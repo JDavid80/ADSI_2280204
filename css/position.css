@@ -1,0 +1,60 @@
+.pos-static-1 {
+    width: 250px;
+    height: 250px;
+    margin-top: 5px;
+    background-color: rgb(10, 85, 85);
+    color: white;
+    position: static;
+    top: 70%;
+    left: 80%;
+}
+.pos-relative-1 {
+    width: 250px;
+    height: 250px;
+    margin-top: 5px;
+    background-color: goldenrod;
+    color: white;
+    position: relative;
+    top: 70%;
+    left: 80%;
+}
+.pos-absolute-1, .pos-absolute-2, .pos-absolute-3 {
+    width: 250px;
+    height: 250px;
+    margin-top: 5px;
+    background-color: darkslategray;
+    color: white;
+    position: absolute;
+    top: 70%;
+}
+.pos-absolute-1 {
+    left: 50%;
+}
+.pos-absolute-2 {
+    left: 65%;
+}
+.pos-absolute-3 {
+    left: 80%;
+}
+.pos-fixed-1 {
+    width: 200px;
+    height: 50px;
+    margin-top: 5px;
+    background-color: rgb(48, 50, 58);
+    color: white;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 8px;
+    vertical-align: middle;
+    font-size: 1em;
+}
+label {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
