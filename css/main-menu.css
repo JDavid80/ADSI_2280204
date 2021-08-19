@@ -11,13 +11,13 @@ ul {
     text-align: center;
     font-size: 1.3em;
 }
-li {
-    display: inline-block;
-    padding: 15px;
-}
 a {
     text-decoration: none;
     color: white;
+}
+li {
+    display: inline-block;
+    padding: 15px;
 }
 .content-main {
     margin: 3em;
