@@ -3,40 +3,41 @@
     padding: 0;
 }
 nav {
-    background-color: rgb(222,8,0);
-    transition: all .5s;
+    cursor: pointer;
+    padding: 0;
 }
 ul {
     list-style: none;
-    text-align: right;
-}
-li {
-    display: inline-block;
-    padding: 15px 20px;
-    position: relative;
-    transition: all .5s;
+    position: absolute;
+    background: rgb(222,8,0);
+    width: 100%;
 }
 a {
     display: block;
     text-decoration: none;
     color:white;
+    padding: 0 2.5em;
 }
-li:hover .children {
+.item {
+    line-height: 3em;
+    display: inline-block;
+    position: relative;
+    text-align: right;
+}
+a:hover {
+    background: rgb(158, 3, 1);
+    transition: all .3s;
+}
+.sub-item {
+    text-align: center; 
+    transition: all 1.5s;
+    max-height: 0;
+    background: rgb(222, 1, 8);
+}
+.item:hover .sub-item {
     display: block;
-    position: absolute;
-    width: 150px;
-}
-.children li {
-    display: block;
-    background-color: rgb(145, 20, 24);
-    color: white;
-    text-align: center;
-    overflow: hidden;
-    border-bottom: 1px solid rgba(255,255,255,.7);
-}
-li .children {
-    display: none;
-    position: absolute;
-    top: 101%;
-}
+    max-height: 500px;
+    border-bottom: 1px solid white;
+} 
+
 
