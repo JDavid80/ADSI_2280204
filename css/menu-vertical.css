@@ -6,42 +6,40 @@ nav {
     position: fixed;
     height: 100%;
     top: 0;
-    background-color: rgb(206, 184, 136);
-    
-    width: 340px;
-    overflow: auto;
+    background-color: rgb(245, 245, 245);
+    width: 230px;
+    overflow-y: auto;
 }
 ul {
     list-style: none;
-    /* margin: 40px 30px 40px 25px; */
     margin-top: 40px;
-    height: 100%;
 }
 li {
-    padding: 20px;
-    border-bottom: 1px solid rgb(24,24,24,.8);
+    border-bottom: 1px solid rgba(148, 138, 123, 0.493);
 }
 li:hover {
-    background-color: rgb(145, 119, 65);
+    background-color: rgb(35, 131, 160);
     cursor: pointer;
 }
 a {
     display: block;
     text-decoration: none;
-    color: rgb(48,48,48);
-    margin: 20px;
-    font-size: 1.5em;
+    color: rgba(46, 43, 43, 0.9);
+    padding: 13px 15px;
+    font-size: 1em;
     cursor: pointer;
 }
 a:hover {
-    background-color: rgb(145, 119, 65);
+    display: block;
+    color: white;
 }
 i {
-    margin-right: 10px;
+    margin-right: 6px;
 }
 .content-main {
-    /* width: 90%; */
-    margin: 0 2em 0 22em;
+    padding: 2em 3em 2em 18em;
+    background-color: rgb(250, 250, 250);
+    
     text-align: justify;
 }
 p {
@@ -49,14 +47,14 @@ p {
 }
 h1 {
     text-align: right;
-    margin-top: 30px;
+    padding-top: 30px;
     margin-bottom: 25px;
     color: rgb(96,96,96);
     font-weight: 900;
 }
 .fa-building, .fa-phone {
-    margin-right: 16px;
+    margin-right: 11px;
 }
 .fa-blogger {
-    margin-right: 17px;
+    margin-right: 12px;
 }

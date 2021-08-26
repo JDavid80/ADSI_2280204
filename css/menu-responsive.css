@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background: #023859;
+    width: 100%;
+}
+ul {
+    list-style: none;
+    text-align: right;
+}
+li {
+    display: inline-block;
+}
+a {
+    display: block;
+    color: black;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 20px;
+}
+.children {
+    position: absolute;
+}
