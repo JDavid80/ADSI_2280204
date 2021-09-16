@@ -39,6 +39,7 @@ nav ul li:hover .children {
     text-align: left;
 }
 nav ul li .children li {
+    overflow: hidden;
     display: block;
     border-bottom: 1px solid rgba(255,255,255,.5);
 }
@@ -59,17 +60,26 @@ p {
     line-height: 1.4em;
     text-align: justify;
 }
+.icon-chevron-small-down {
+    float: right;
+    position: relative;
+    top: 3px;
+    padding-left: 5px;
+}
 @media only screen and (max-width: 680px) {
     body {
         padding-top: 68px;
+    }
+    h1 {
+        margin: 35px 0 35px 35px;
     }
     nav {
         position: fixed;
         height: calc(100% - 68px);
         width: 60%;
-        /* overflow: scroll;
-        overflow-y: none; */
-        overflow: auto;
+        left: -100%;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
     .menu-bar {
         display: block;
@@ -96,5 +106,12 @@ p {
     nav ul li {
         display: block;
         border-bottom: 1px solid rgba(255,255,255,.5);
+    }
+    nav ul .children {
+        position: relative;
+        width: 100%;
+    }
+    nav ul li:hover .children {
+        display: none;
     }
 }
