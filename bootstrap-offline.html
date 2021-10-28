@@ -95,50 +95,122 @@
         <div class="row">
             <div class="col-2"></div>
             <div class="mb-3 col-4">
-                <label for="exampleFormControlInput1" class="form-label">Nombres</label>
-                <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Nombre del cliente...">
+                <label for="exampleFormControlInput1" class="form-label">Primer Nombre</label>
+                <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Primer Nombre...">
             </div>
             <div class="mb-3 col-4">
-                <label for="exampleFormControlInput1" class="form-label">Nombres</label>
-                <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Nombre del cliente...">
+                <label for="exampleFormControlInput1" class="form-label">Segundo Nombre</label>
+                <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Segundo Nombre...">
             </div>
             <div class="col-2"></div>
         </div>
         <div class="row">
             <div class="col-2"></div>
             <div class="mb-3  col-4">
-                <label for="exampleFormControlInput1" class="form-label">Nombres</label>
-                <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Nombre del cliente...">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Dirección...">
             </div>
             <div class="mb-3  col-4">
-                <label for="exampleFormControlInput1" class="form-label">Nombres</label>
-                <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Nombre del cliente...">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Teléfono...">
             </div>
             <div class="col-2"></div>
         </div>
         <div class="row">
             <div class="col-2"></div>
             <div class="mb-3 col-4">
-                <label for="exampleFormControlInput1" class="form-label">Nombres</label>
-                <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Nombre del cliente...">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Municipio...">
             </div>
             <div class="mb-3 col-4">
-                <label for="exampleFormControlInput1" class="form-label">Nombres</label>
-                <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Nombre del cliente...">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Departamento...">
             </div>
             <div class="col-2"></div>
         </div>
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="mb-3 col-4">
-                <label for="exampleFormControlInput1" class="form-label">Nombres</label>
-                <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Nombre del cliente...">
+    </div>
+    <h2>Select</h2>
+    <div class="container">
+        <div class="row row-style">
+            <div class="col-4">
+                <label">Seleccione el municipio de residencia</label>
+                <select class="form-select pointer-mouse" aria-label="Default select example">
+                    <option selected>Pitalito</option>
+                    <option value="1">San Agustín</option>
+                    <option value="2">Timaná</option>
+                    <option value="3">Acevedo</option>
+                  </select>
             </div>
-            <div class="mb-3 col-4">
-                <label for="exampleFormControlInput1" class="form-label">Nombres</label>
-                <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Nombre del cliente...">
+        </div>
+    </div>
+    <h2>check</h2>
+    <div class="container">
+        <div class="row row-style">
+            <div class="col-4">
+                <label>Seleccione las librerias y/o frameworks que utiliza actualmente</label>
+                <div class="form-check">
+                    <input class="form-check-input pointer-mouse" type="checkbox" value="" id="checkReact">
+                    <label class="form-check-label pointer-mouse" for="checkReact">
+                      React.js
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input pointer-mouse" type="checkbox" value="" id="checkVue">
+                    <label class="form-check-label pointer-mouse" for="checkVue">
+                      Vue.js
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input pointer-mouse" type="checkbox" value="" id="checkAngular">
+                    <label class="form-check-label pointer-mouse" for="checkAngular">
+                      Angular.js
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input pointer-mouse" type="checkbox" value="" id="ningunFrame">
+                    <label class="form-check-label pointer-mouse" for="ningunFrame">
+                      No utilizo por el momento librerias
+                    </label>
+                </div>
             </div>
-            <div class="col-2"></div>
+        </div>
+    </div>
+    <h2>Radio</h2>
+    <div class="container">
+        <div class="row row-style">
+            <div class="col-4">
+                <label>Seleccione el lenguaje de programación que mas utiliza</label>
+                <div class="form-check">
+                    <input class="form-check-input pointer-mouse" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label pointer-mouse" for="flexRadioDefault1">
+                      Javascript
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input pointer-mouse" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label pointer-mouse" for="flexRadioDefault1">
+                      PHP
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input pointer-mouse" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label pointer-mouse" for="flexRadioDefault1">
+                      C#
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input pointer-mouse" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label pointer-mouse" for="flexRadioDefault1">
+                      Java
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input pointer-mouse" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label pointer-mouse" for="flexRadioDefault1">
+                      Ninguno de los anteriores
+                    </label>
+                  </div>
+            </div>
         </div>
     </div>
 </body>

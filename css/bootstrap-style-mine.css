@@ -26,3 +26,6 @@ h2 {
 .row-style {
     margin-bottom: 30px;
 }
+.pointer-mouse {
+    cursor: pointer;
+}
