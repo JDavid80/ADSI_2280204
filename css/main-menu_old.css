@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav.menu-visible {
+    background-color: rgb(250,250,250);
+    font-family: 'Roboto', sans-serif;
+    height: calc(100vh - 80px);
+    position: fixed;
+    top: 70px;
+    overflow: scroll;
+    bottom: 40px;
+    left: -100%;
+    margin-top: 70px;
+    z-index: 5;
+    background: blue;
+    position: relative;
+}
+nav.menu-invisible {
+    background-color: rgb(250,250,250);
+    font-family: 'Roboto', sans-serif;
+    height: calc(100vh - 80px);
+    
+    top: 70px;
+    overflow: scroll;
+    bottom: 40px;
+    left: -100%;
+    margin-top: 70px;
+    z-index: 5;
+    background: blue;
+    /* visibility: hidden; */
+}
+ul {
+    list-style: none;
+    text-align: center;
+    font-size: 1.3em;
+    display: block;
+}
+li {
+    flex-direction: block;
+}
+a.hover-item {
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(64,64,64);
+    display: block;
+    border-bottom: 1px solid rgb(64,64,64,.3);
+}
+.content-main {
+    margin: 3em;
+/*     margin-left: 200px; */
+}
+.hamburger-menu {
+    font-size: 1.7em;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+a.hover-item:hover {
+    background: rgb(64,64,64,.8);
+    cursor: pointer;
+    color: white;
+}
+.content-page {
+    display: grid;
+    width: 100%;
+    grid-template: "nav-page content-main" auto /
+                    auto    auto;
+    justify-content: start;
+}
+.nav-page {
+    grid-area: nav-page;
+}
+.content-main {
+    grid-area: content-main;
+    float: left;
+}
+nav.mostrarNav {
+    margin-right: -300px;
+    left: 0;
+}
