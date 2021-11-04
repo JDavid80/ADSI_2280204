@@ -7,7 +7,8 @@ h1 {
     text-align: center;
 }
 h2 {
-    margin-left: 20px;
+    text-align: center;
+    margin-top: 40px;
 }
 .container-style {
     background-color: dodgerblue;
@@ -36,4 +37,13 @@ h2 {
 }
 .margin-icon {
     margin-right: 12px;
+}
+.card-style {
+    margin: 15px;
+}
+.img-top-style {
+    margin-top: 20px;
+}
+.font-black {
+    color: black;
 }

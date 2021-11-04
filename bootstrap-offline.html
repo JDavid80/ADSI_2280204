@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap-offline.css">
+    
     <link rel="stylesheet" href="css/bootstrap-style-mine.css">
     <link rel="stylesheet" href="icons/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
 </head>
 <body>
     <h1>Elementos de Bootstrap</h1>
@@ -225,5 +227,210 @@
             </div>
         </div>
     </div>
+    <h2>Floating Labels</h2>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Ingrese su nombre">
+                <label for="floatingInput">Ingrese su nombre</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
+    <h2>Validation</h2>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-6">
+          <label for="validationCustom01" class="form-label">Nombres</label>
+          <input type="text" class="form-control" id="validationCustom01" value="" required>
+          <div class="valid-feedback">
+            Se mira bien!
+          </div>
+          <div class="invalid-feedback">
+            Por favor, ingrese un usuario válido
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom02" class="form-label">Apellidos</label>
+          <input type="text" class="form-control" id="validationCustom02" value="" required>
+          <div class="valid-feedback">
+            Se mira bien!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom03" class="form-label">Dirección</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            La dirección no puede quedar vacia.
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom04" class="form-label">Departamento</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Seleccione</option>
+            <option>Huila</option>
+            <option>Tolima</option>
+            <option>Caqueta</option>
+            <option>Putumayo</option>
+          </select>
+          <div class="invalid-feedback">
+            Por favor, seleccione un departamento válido.
+          </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationCustom04" class="form-label">Municipio</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Seleccione</option>
+              <option>Pitalito</option>
+              <option>Acevedo</option>
+              <option>Elias</option>
+              <option>Isnos</option>
+              <option>Oporapa</option>
+              <option>Saladoblanco</option>
+              <option>San Agustín</option>
+              <option>Saladoblanco</option>
+            </select>
+            <div class="invalid-feedback">
+              Por favor, seleccione un departamento válido.
+            </div>
+          </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Aceptar Términos y Condiciones
+            </label>
+            <div class="invalid-feedback">
+              Debe aceptar Términos y Condiciones para poder continuar.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Registrarme</button>
+        </div>
+      </form>
+    </div>
+    <div class="col-3"></div>
+    </div>
+    <h2>Card</h2>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="card col-2 card-style">
+            <img src="img/scott2_350x196.jpg" class="card-img-top img-top-style" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Scott Aspect 940</h5>
+            <p class="card-text">La Scott aspect presenta toda la innovación y tecnologías propias de la marca.</p>
+            <a href="#" class="btn btn-primary">Mas información...</a>
+            </div>
+        </div>
+        <div class="card col-2 card-style">
+            <img src="img/trek1_350x196.jpg" class="card-img-top img-top-style" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Trek</h5>
+            <p class="card-text">La Trek presenta toda la innovación y tecnologías propias de la marca.</p>
+            <a href="#" class="btn btn-primary">Mas información...</a>
+            </div>
+        </div>
+        <div class="card col-2 card-style">
+            <img src="img/specialized2_350x196.jpg" class="card-img-top img-top-style" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Specialized</h5>
+                <p class="card-text">La Specialized presenta toda la innovación y tecnologías propias de la marca.</p>
+                <a href="#" class="btn btn-primary">Mas información...</a>
+                </div>
+        </div>
+        <div class="card col-2 card-style">
+            <img src="img/canyon2_350x196.png" class="card-img-top img-top-style" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Canyon</h5>
+            <p class="card-text">La Canyon presenta toda la innovación y tecnologías propias de la marca.</p>
+            <a href="#" class="btn btn-primary">Mas información...</a>
+            </div>
+        </div>
+        <div class="col-2"></div>
+        <div class="card card-style col-4">
+            <iframe class="img-top-style" width="620" height="335" src="https://www.youtube.com/embed/R-u4i-isvLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+            <h5 class="card-title">Talento SENA</h5>
+            <p class="card-text">Sebas Rivera - Cantelo pues!!</p>
+            <a href="#" class="btn btn-primary">Mas información...</a>
+            </div>
+        </div>
+    </div>
+    <h2>Carousel</h2>
+    <div class="row">
+        <div class="col-2"></div>
+        <div id="carouselExampleCaptions" class="carousel slide col-8" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="img/fordmustang_1366x768.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h3>Ford Mustang Shelby</h3>
+                <h4>La aventura de conducir un auto de verdad.</h4>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/porsche_1920x1080.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5 class="font-black">Porsche 911</h5>
+                <h4 class="font-black">La aventura de conducir un auto de verdad.</h4>
+                </div>
+            </div>
+            
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+      </div>  
+      <div class="col-2"></div>
+    </div>
+    <h2>Modal</h2>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered"">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Adquirir Producto</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <label>Usted será direccionado a PSE para proceder con la compra. Está seguro?</label>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary">Continuar a PSE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2>Popover</h2>
+  <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="Este es un ejemplo de un popover">Click para mostrar el Popover</button>
+<br><br><br><br>
+    <script src="js/popper.min.js"></script>
+    
+    
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts-bootstrap.js"></script>
 </body>
 </html>
