@@ -39,3 +39,5 @@ window.addEventListener("load", function(){
   return new bootstrap.Popover(popoverTriggerEl)
     })  
 });
+
+
