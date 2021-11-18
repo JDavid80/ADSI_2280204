@@ -11,7 +11,7 @@
 
 /* Quien ocupo el primer puesto? */
 var nota1 = 8.5;
-var nota2 = "ocho";
+var nota2 = 8;
 
 /* Condicionales */
 if (nota1 > nota2) {
