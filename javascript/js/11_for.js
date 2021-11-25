@@ -10,9 +10,9 @@ aprendiz 1:
 aprendiz 2:
 aprendiz 3:...hasta el 20
 */
-for (i = 1; i <= 20; i++) {
+/* for (i = 1; i <= 20; i++) {
     console.log("Aprendiz N. " + i);
-}
+} */
 
 /* Recorriendo arreglos */
 /* Forma 1 */
@@ -28,9 +28,22 @@ var aprendiz2 = new Array(2, "Luisa Fernanda", "Ramirez Montoya", 19, "B. Simón
 
 var aprendiz3 = [3, "Jesus Nicolas", "Ayerbe Guarnizo", 17, "B. Las Palmitas", 177];
 
-console.log("Aprendiz N. 1");
-for (i = 0; i <= aprendiz1.length - 1; i++) {
-    console.log(aprendiz1[i]);
+for (i = 0; i <= 2- 1; i++) {
+    i++;
+    console.log("APRENDIZ N. " + (i));
+    for(var j = 0; j <= 5; j++) {
+        console.log(aprendiz1[j]);
+    }
+    i++;
+    console.log("APRENDIZ N. " + (i));
+    for(var j = 0; j <= 5; j++) {
+        console.log(aprendiz2[j]);
+    }
+    i++;
+    console.log("APRENDIZ N. " + (i));
+    for(var j = 0; j <= 5; j++) {
+        console.log(aprendiz3[j]);
+    }
 }
 
 
