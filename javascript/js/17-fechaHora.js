@@ -42,3 +42,27 @@ var msFechaFutura = fechaFutura.getTime();
 console.log(msCurrent, msFechaFutura);
 var diffMsFechaFutura = (msFechaFutura - msCurrent);
 console.log(diffMsFechaFutura);
+
+
+/* Determinar si ya venció el plazo */
+var fechaHoraLimite = new Date(Date.UTC(2021, 11, 9, 8, 40));
+fechaHoraLimite.setHours(8);
+console.log("Fecha y Hora de vencimiento: " + fechaHoraLimite);
+
+if (anyoActual <= fechaHoraLimite.getFullYear() && 
+    mesActual <= fechaHoraLimite.getMonth()  &&
+    diaMes <= fechaHoraLimite.getDate() && 
+    horaActual <= fechaHoraLimite.getHours() && 
+    minutosActual <= fechaHoraLimite.getMinutes()) {
+        console.log("Falta: " + (diaMes - fechaHoraLimite.getDate()) + " dias, " + 
+                    (horaActual - fechaHoraLimite.getHours()) + " horas, " + 
+                    (fechaHoraLimite.getMinutes() - minutosActual) + " minutos");
+        console.log("El envío fue realizado con éxito");
+}
+else{
+    console.log("Lo sentimos. La fecha de envío ya pasó.");
+}
+
+
+
+
