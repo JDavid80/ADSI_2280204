@@ -15,3 +15,4 @@ console.log("===Resultados===");
 for (let i=0; i < candidatos.length; i++) {
     console.log(candidatos[i] + ": " + votos[i]);
 }
+
